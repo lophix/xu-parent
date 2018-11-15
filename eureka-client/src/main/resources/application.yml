@@ -1,0 +1,9 @@
+server:
+  port: 8967
+spring:
+  application:
+    name: say-hi
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8976/eureka/
